@@ -9,10 +9,7 @@ public class Main {
         System.out.println("Digite os nomes seguido da virgula sem os espaços,");
         name = scanner.next();
 
-
-
         String [] resultName = name.split(",");
-
 
         Arrays.sort(resultName);
         for (String names: resultName) {
